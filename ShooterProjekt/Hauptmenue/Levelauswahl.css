@@ -1,0 +1,74 @@
+html, body {
+    
+    height: 100%;
+    padding: 0px;
+    margin: 0px;
+    background-image: url(weitereBilder/Levelauswahl.png);
+    display: flex;
+    flex-direction: column;
+}
+
+
+#Start1 {
+    list-style-type: none;
+    display: block;
+    justify-content: space-between;
+    width: 350px;
+    margin-top: 90px;
+    margin-left: 1150px;
+    font-size: 50px;
+    font-family: fantasy;
+    
+}
+
+#Start2 {
+    list-style-type: none;
+    display: block;
+    justify-content: space-between;
+    width: 350px;
+    margin-top: 200px;
+    margin-left: 140px;
+    font-size: 50px;
+    font-family: fantasy;
+    
+}
+
+#zurueck {
+     list-style-type: none;
+    display: block;
+    justify-content: space-between;
+    width: 350px;
+    margin-top: 10px;
+    padding-left: 20px;
+    font-size: 50px;
+    font-family: fantasy;
+}
+
+
+a:link , a:active, a:visited {
+    border: solid black 4px;
+    color: black;
+    background-color: red;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+   
+}
+
+
+#Start2 a:hover {
+    
+    color: skyblue;
+    background-color: black;
+}
+
+#Start1 a:hover {
+    
+    color: greenyellow;
+    background-color: darkslategrey;
+}
+
+#zurueck a:hover {
+    color: orange;
+    background-color: darkslategray;
+}

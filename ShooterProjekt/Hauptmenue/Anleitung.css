@@ -1,0 +1,85 @@
+body {
+    background-image: url(./weitereBilder/Anleitung.png);
+/*    background-color:darkslategrey;*/
+}
+
+img {
+    border: solid red 5px;
+}
+
+
+#objekte {
+
+margin-left: 800px;
+
+}
+
+#anklicken {
+    margin-top:  80px;
+    margin-left: 500px;
+ 
+}
+
+
+#punktzahl {
+    margin-left: 650px;
+    margin-top: 100px;
+}
+
+#lebensabzug {
+    margin-top: 100px;
+    margin-left: 400px;
+    width: 1100px;
+    height: 550px;
+    
+}
+
+#spielende {
+    margin-top: 100px;
+    margin-left: 650px;
+}
+
+
+#zurueck1 {
+    list-style-type: none;
+    display: block;
+    justify-content: space-between;
+    width: 350px;
+    margin-top: 10px;
+    padding-top: 0px;
+    padding-left: 20px;
+    font-size: 50px;
+    font-family: fantasy;
+}
+
+#zurueck2 {
+    list-style-type: none;
+    display: block;
+    justify-content: space-between;
+    width: 350px;
+    padding-top:5px;
+    padding-left: 20px;
+    font-size: 50px;
+    font-family: fantasy;
+}
+
+
+a:link , a:active, a:visited {
+    border: solid black 4px;
+    color: black;
+    background-color: red;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+   
+}
+
+
+a:hover {
+    
+    color: orange;
+    background-color: darkslategray;
+}
+
+
+

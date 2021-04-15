@@ -1,0 +1,98 @@
+body {
+    background-image: url(./weitereBilder/EntwicklerHintergrund.png);
+/* background-color:darkslategrey;*/
+}
+
+img {
+    border: solid red 5px;
+}
+
+#zurueck {
+    list-style-type: none;
+    justify-content: space-between;
+    width: 350px;
+    margin-top: 50px;
+    padding-top: 0;
+    padding-left: 20px;
+    font-size: 50px;
+    font-family: fantasy;
+}
+
+
+a:link , a:active, a:visited {
+    border: solid black 4px;
+    color: black;
+    background-color: red;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+}
+
+
+a:hover {
+    color: orange;
+    background-color: darkslategray;
+}
+
+#H1 {
+    margin-top: 0px;
+    font-family: fantasy;
+    text-align: center;
+    color: red;
+    padding-left: 650px;
+}
+
+#joscha {
+    margin: 0;
+    padding: 0;
+    float: left;
+    margin-left: 330px;
+}
+
+#p2, #p3, #p4 {
+    margin-top: 10px;
+    padding-top: 0px;
+    float: left;
+    margin-left: 60px;
+}
+
+
+#text {
+    padding: 0;
+    float: left;
+    margin-top: 0px;
+    margin-left: 50px;
+    font-family: monospace;
+    font-size: 17px;
+    color: black;
+    font-style: italic;
+    font-weight: bold;
+}
+
+#text2, #text3, #text4 {
+    padding: 0;
+    float: left;
+    margin-top: 10px;
+    margin-left: 10px;
+    font-family: monospace;
+    font-size: 16px;
+    color: black;
+    font-style: italic;
+    font-weight: bold;
+}
+
+
+#Mitentwickler {
+    
+   margin-top: 350px;
+    font-size: 50px;
+    font-family: fantasy;
+    color: red;
+    padding-left: 670px;
+}
+
+
+
+span {
+    word-spacing: 0.5em;
+}
